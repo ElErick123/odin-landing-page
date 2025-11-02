@@ -178,10 +178,23 @@ nav .right li a {
 }
 
 .sign-up .right button {
+    display: inline-block;
     border: 2px solid #F9FAF8;
     border-radius: 7px;
     font-size: 16px;
     padding: 5px 25px;
     background-color: transparent;
     color: #F9FAF8;
+}
+
+/* SECTION 5: Footer */
+footer {
+    background-color: #1f2937;
+    padding: 30px 250px;
+}
+
+footer span {
+    display: block;
+    color: #F9FAF8;
+    text-align: center;
 }
