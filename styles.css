@@ -84,3 +84,47 @@ nav .right li a {
     height: 100%;
     width: auto;
 }
+
+/* SECTION 2: Info */
+.info {
+    background-color: #F9FAF8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 250px;
+}
+
+.info h2 {
+    font-size: 30px;
+    color: #1f2937;
+    font-weight: 900;
+    margin-bottom: 40px;
+}
+
+.info .articles {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    width: 85%;
+    margin-bottom: 50px;
+}
+
+.info .articles article {
+    width: 150px;
+}
+
+.info .articles article img {
+    border: 3px solid #3882f6;
+    border-radius: 10px;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.info .articles article p {
+    text-align: center;
+}
+
+/* SECTION 3: Quote */
